@@ -1,0 +1,70 @@
+html {
+  /* px signifie "pixels". La taille de police de base est maintenant de 10
+     pixels de haut */
+  font-size: 10px;
+  /* Remplacez EMPLACEMENT par la valeur de la propriété font-family obtenue
+     depuis Google Fonts */
+  font-family: "Courier Prime", monospace;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+html {
+  background-color: #5c54d9;
+}
+
+div.info {
+  width: 600px;
+  margin: 50px auto;
+  background-color: #d0cfd8;
+  padding: 0 20px 20px 20px;
+  border: 2.5px solid black;
+}
+
+div.formulaire {
+  width: 600px;
+  margin: 50px auto;
+  background-color: #d0cfd8;
+  padding: 35px 20px 45px 20px;
+  clip-path: polygon(
+    0% 0, 2.5% 25px, 5% 0, 7.5% 25px, 10% 0, 12.5% 25px, 15% 0, 17.5% 25px, 20% 0, 22.5% 25px, 25% 0, 27.5% 25px, 30% 0, 32.5% 25px, 35% 0, 37.5% 25px, 40% 0, 42.5% 25px, 45% 0, 47.5% 25px, 50% 0, 52.5% 25px, 55% 0, 57.5% 25px, 60% 0, 62.5% 25px, 65% 0, 67.5% 25px, 70% 0, 72.5% 25px, 75% 0, 77.5% 25px, 80% 0, 82.5% 25px, 85% 0, 87.5% 25px, 90% 0, 92.5% 25px, 95% 0, 97.5% 25px, 100% 0,
+    100% 100%, 97.5% calc(100% - 25px), 95% 100%, 92.5% calc(100% - 25px), 90% 100%, 87.5% calc(100% - 25px), 85% 100%, 82.5% calc(100% - 25px), 80% 100%, 77.5% calc(100% - 25px), 75% 100%, 72.5% calc(100% - 25px), 70% 100%, 67.5% calc(100% - 25px), 65% 100%, 62.5% calc(100% - 25px), 60% 100%, 57.5% calc(100% - 25px), 55% 100%, 52.5% calc(100% - 25px), 50% 100%, 47.5% calc(100% - 25px), 45% 100%, 42.5% calc(100% - 25px), 40% 100%, 37.5% calc(100% - 25px), 35% 100%, 32.5% calc(100% - 25px), 30% 100%, 27.5% calc(100% - 25px), 25% 100%, 22.5% calc(100% - 25px), 20% 100%, 17.5% calc(100% - 25px), 15% 100%, 12.5% calc(100% - 25px), 10% 100%, 7.5% calc(100% - 25px), 5% 100%, 2.5% calc(100% - 25px), 0% 100%
+  );
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+div.formulaire p {
+  text-align: center;
+}
+
+div.formulaire input, div.formulaire button, div.formulaire textarea {
+  display: block;
+  margin: auto;
+}
+
+img {
+  display: block;
+  margin: 0 auto auto;
+  max-width: 200%;
+  width: 50px;
+  height: auto;
+}
+
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #000000;
+}

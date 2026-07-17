@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr-FR">
+  <head>
+    <link href="Nova1601.github.io/Style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Ping my printer</title>
+  </head>
+  <body>
+   <div class="info">
+    <h1>Ping to print</h1>
+    <img src="Nova1601.github.io/print_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="Une icone d'imprimante" />
+    <p>Envoyer moi ce que vous voulez via le formulaire si dessous, tous cela sera imprimer chez moi !</p>
+    <br>
+    <p> Vous pouvez envoyer :</p>
+    <ul>
+        <li>Text</li>
+        <li> (bientôt !) Image (trouvable sur : <a href="https://images.google.com/">google image</a>)</li>
+    </ul>
+   </div>
+   <div class="formulaire">
+    <!-- mettre dans "action="[ici]"" le liens du webhook de destination -->
+    <form action="http://127.0.0.1:1880/print" method="post">
+        <h2>Ping !</h2>
+        <label for="message">
+            <p>message :</p>
+        </label>
+        <textarea name="message" id="message" requiredrows="5" cols="33"></textarea>
+        <br>
+        <label for="from">
+            <p>(optionnelle) de :</p>
+        </label>
+            <input type="text" name="from" id="from">
+        <br>
+        <button type="submit">envoyer !</button>
+    </form>
+   </div>
+</body>
+
+</html>
